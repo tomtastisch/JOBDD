@@ -41,7 +41,7 @@ import java.util.Objects;
  * for operations on complex data like OBDDs.
  * <br>
  * Flux: A publisher type that emits 0 to n elements.
- * Mono: A publisher type that emits either 0 or 1 element.
+ * Mono: A publisher type that emits either zero or one elements.
  * <br>
  * The usage of {@code blockLast()} synchronizes the reactive flow, ensuring that the
  * comparison is completed before proceeding. While this may simplify certain operations,

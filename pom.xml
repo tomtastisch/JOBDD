@@ -17,15 +17,13 @@
         <!-- Dependency Versions -->
         <commons-lang3.version>3.14.0</commons-lang3.version>
         <commons-collections4.version>4.5.0-M2</commons-collections4.version>
-        <caffeine.version>3.1.6</caffeine.version>
         <lombok.version>1.18.20</lombok.version>
         <slf4j.version>2.0.0</slf4j.version>
         <junit.jupiter.version>5.9.1</junit.jupiter.version>
         <groovy.version>3.0.9</groovy.version>
         <junit.platform.launcher.version>1.9.1</junit.platform.launcher.version>
-        <spock.version>2.3-groovy-3.0</spock.version> <!-- Spock version -->
+        <spock.version>2.3-groovy-3.0</spock.version>
         <net.bytebuddy.version>1.14.18</net.bytebuddy.version>
-        <org.powermock.version>2.0.9</org.powermock.version>
 
         <!-- Plugin Versions -->
         <gmavenplus.version>3.0.2</gmavenplus.version>
@@ -104,13 +102,6 @@
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy</artifactId>
             <version>${net.bytebuddy.version}</version> <!-- Verwende die neueste Version -->
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-api-mockito2</artifactId>
-            <version>${org.powermock.version}</version>  <!-- oder die neueste stabile Version -->
             <scope>test</scope>
         </dependency>
     </dependencies>
